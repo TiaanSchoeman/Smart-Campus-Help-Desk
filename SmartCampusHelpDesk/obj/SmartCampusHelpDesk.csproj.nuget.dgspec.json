@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grego\\OneDrive\\Documents\\!CTU\\Year 2\\Projects\\Smart Campus\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\SmartCampusHelpDesk.csproj": {}
+    "c:\\Users\\grego\\OneDrive\\Documents\\!CTU\\Year 2\\Projects\\Smart Campus\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\SmartCampusHelpDesk.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grego\\OneDrive\\Documents\\!CTU\\Year 2\\Projects\\Smart Campus\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\SmartCampusHelpDesk.csproj": {
+    "c:\\Users\\grego\\OneDrive\\Documents\\!CTU\\Year 2\\Projects\\Smart Campus\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\SmartCampusHelpDesk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grego\\OneDrive\\Documents\\!CTU\\Year 2\\Projects\\Smart Campus\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\SmartCampusHelpDesk.csproj",
+        "projectUniqueName": "c:\\Users\\grego\\OneDrive\\Documents\\!CTU\\Year 2\\Projects\\Smart Campus\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\SmartCampusHelpDesk.csproj",
         "projectName": "SmartCampusHelpDesk",
-        "projectPath": "C:\\Users\\grego\\OneDrive\\Documents\\!CTU\\Year 2\\Projects\\Smart Campus\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\SmartCampusHelpDesk.csproj",
+        "projectPath": "c:\\Users\\grego\\OneDrive\\Documents\\!CTU\\Year 2\\Projects\\Smart Campus\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\SmartCampusHelpDesk.csproj",
         "packagesPath": "C:\\Users\\grego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grego\\OneDrive\\Documents\\!CTU\\Year 2\\Projects\\Smart Campus\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\obj\\",
+        "outputPath": "c:\\Users\\grego\\OneDrive\\Documents\\!CTU\\Year 2\\Projects\\Smart Campus\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

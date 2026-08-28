@@ -2,11 +2,35 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Help Desk";
+    var categoryIcons = new Dictionary<string, string>
+    {
+        ["Network"] = "🌐",
+        ["Computer"] = "🖥️",
+        ["Software"] = "🧩",
+        ["Account"] = "🔐",
+        ["Other"] = "❓"
+    };
 }
 
-<div class="text-center mb-4">
+<div class="hero-section text-center mb-4">
     <h1 class="display-5">Smart Campus Help Desk</h1>
-    <p>Log a new issue below and view all submitted issues in the table.</p>
+    <p class="lead mb-0">Report a technical problem in seconds and track it through to resolution.</p>
+</div>
+
+<div class="row row-cols-2 row-cols-md-5 g-3 mb-5">
+    @foreach (var category in Model.Categories)
+    {
+        var count = Model.OpenCountsByCategory.TryGetValue(category, out var c) ? c : 0;
+        <div class="col">
+            <div class="card category-card h-100 text-center">
+                <div class="card-body">
+                    <div class="category-icon" aria-hidden="true">@categoryIcons.GetValueOrDefault(category, "❓")</div>
+                    <h3 class="h6 card-title mb-1">@category</h3>
+                    <span class="badge rounded-pill text-bg-secondary">@count open</span>
+                </div>
+            </div>
+        </div>
+    }
 </div>
 
 <div class="row">

@@ -28,6 +28,10 @@ public class IndexModel : PageModel
         "Other"
     };
 
+    /// <summary>Open (non-Closed) issue count per category, for the v2.0 homepage category cards.</summary>
+    public IReadOnlyDictionary<string, int> OpenCountsByCategory { get; private set; } =
+        new Dictionary<string, int>();
+
     public List<string> Statuses { get; } = new()
     {
         "Open",
@@ -38,6 +42,9 @@ public class IndexModel : PageModel
     public void OnGet()
     {
         Issues = IssueStore.Issues.OrderByDescending(i => i.Date).ToList();
+        OpenCountsByCategory = Categories.ToDictionary(
+            c => c,
+            c => IssueStore.Issues.Count(i => i.Category == c && i.Status != "Closed"));
     }
 
     public IActionResult OnPost()
@@ -45,6 +52,9 @@ public class IndexModel : PageModel
         if (!ModelState.IsValid)
         {
             Issues = IssueStore.Issues.OrderByDescending(i => i.Date).ToList();
+            OpenCountsByCategory = Categories.ToDictionary(
+                c => c,
+                c => IssueStore.Issues.Count(i => i.Category == c && i.Status != "Closed"));
             return Page();
         }
 

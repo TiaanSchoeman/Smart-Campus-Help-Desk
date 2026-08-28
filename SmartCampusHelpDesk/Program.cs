@@ -23,3 +23,7 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+// Makes the implicit Program class visible to SmartCampusHelpDesk.Tests
+// (WebApplicationFactory<Program> integration tests, see Task 12).
+public partial class Program { }

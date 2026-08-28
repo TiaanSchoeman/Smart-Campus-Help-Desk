@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Sc3+Asdkt9w=",
+  "dgSpecHash": "Jl8WFUsDH2M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\tscho\\OneDrive\\Documents\\2026\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\SmartCampusHelpDesk.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\marno\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\SmartCampusHelpDesk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marno\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.28\\microsoft.netcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\marno\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.28\\microsoft.windowsdesktop.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\marno\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.28\\microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\marno\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.28\\microsoft.netcore.app.host.win-x64.8.0.28.nupkg.sha512"
+  ],
   "logs": []
 }

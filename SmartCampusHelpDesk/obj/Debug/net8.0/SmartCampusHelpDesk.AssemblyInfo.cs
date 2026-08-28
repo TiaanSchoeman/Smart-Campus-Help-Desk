@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartCampusHelpDesk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c511bc4042596201aee3b9a664b430b80e961c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e2f182ddf1cb1473208000391dd1277b57ef306")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartCampusHelpDesk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartCampusHelpDesk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

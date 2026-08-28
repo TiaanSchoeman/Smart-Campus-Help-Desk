@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rIU9V3kzmSo=",
+  "dgSpecHash": "zKx7u7JatXw=",
   "success": true,
-  "projectFilePath": "c:\\Users\\grego\\OneDrive\\Documents\\!CTU\\Year 2\\Projects\\Smart Campus\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\SmartCampusHelpDesk.csproj",
+  "projectFilePath": "C:\\Users\\grego\\OneDrive\\Documents\\!CTU\\Year 2\\Projects\\Smart Campus\\Smart-Campus-Help-Desk\\SmartCampusHelpDesk\\SmartCampusHelpDesk.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\grego\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
     "C:\\Users\\grego\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",

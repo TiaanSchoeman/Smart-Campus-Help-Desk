@@ -1,0 +1,6 @@
+@{
+    Layout = "_Layout";
+    var appInfo = Context.RequestServices.GetRequiredService<Microsoft.Extensions.Options.IOptions<SmartCampusHelpDesk.Configuration.AppInfo>>().Value;
+    ViewData["AppVersion"] = appInfo.Version;
+    ViewData["AppEnvironment"] = appInfo.EnvironmentName;
+}
